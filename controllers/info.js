@@ -21,3 +21,10 @@ exports.getMaxymPoplavskiyPage = (req, res, next) => {
     path: '/max-2'
   });
 }
+
+exports.getOleksandrZahrebelnyiPage = (req, res, next) => {
+  res.render('sasha', {
+    docTitle: 'Oleksandr Zahrebelnyi',
+    path: '/sasha'
+  });
+}
