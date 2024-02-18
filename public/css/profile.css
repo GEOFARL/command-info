@@ -1,0 +1,29 @@
+.icon-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon-link svg {
+  height: 36px;
+  width: 36px;
+}
+
+.profile {
+  margin-top: 16px;
+}
+
+.avatar-container {
+  margin-top: 16px;
+  height: 300px;
+  aspect-ratio: 1 / 1;
+
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 4px 4px 7px 2px rgba(0 0 0 / .1);
+}
+
+.avatar-container img {
+  width: 100%;
+  height: 100%;
+}

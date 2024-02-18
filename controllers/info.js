@@ -7,3 +7,10 @@ exports.getHomePage = (req, res, next) => {
     path: '/'
   });
 };
+
+exports.getMaxymTsyganokPage = (req, res, next) => {
+  res.render('max-1', {
+    docTitle: 'Maxym Tsyganok',
+    path: '/max-1'
+  });
+}
