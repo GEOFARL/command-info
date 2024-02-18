@@ -14,17 +14,22 @@ exports.getMaxymTsyganokPage = (req, res, next) => {
     path: '/max-1'
   });
 }
-
 exports.getMaxymPoplavskiyPage = (req, res, next) => {
   res.render('max-2', {
     docTitle: 'Maxym Poplavskiy',
     path: '/max-2'
   });
 }
-
 exports.getOleksandrZahrebelnyiPage = (req, res, next) => {
   res.render('sasha', {
     docTitle: 'Oleksandr Zahrebelnyi',
     path: '/sasha'
+  });
+}
+
+exports.getSofiiaKovalPage = (req, res, next) => {
+  res.render('sofia', {
+    docTitle: 'Sofiia Koval',
+    path: '/sofia'
   });
 }
