@@ -14,3 +14,10 @@ exports.getMaxymTsyganokPage = (req, res, next) => {
     path: '/max-1'
   });
 }
+
+exports.getSofiiaKovalPage = (req, res, next) => {
+  res.render('sofia', {
+    docTitle: 'Sofiia Koval',
+    path: '/sofia'
+  });
+}
