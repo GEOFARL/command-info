@@ -16,7 +16,7 @@
 .avatar-container {
   margin-top: 16px;
   height: 300px;
-  aspect-ratio: 1 / 1;
+  width: fit-content;
 
   border-radius: 10px;
   overflow: hidden;
