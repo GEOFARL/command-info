@@ -2,7 +2,7 @@ const express = require('express');
 
 const {
   getHomePage
-} = require('../controllers');
+} = require('../controllers/info');
 
 const router = express.Router();
 
